@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Instragram home Page
+        </title>    
+            <meta name="viewport" content="width= device width", initial scale="1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            div {
+                background-color: white;
+                width: 40%;
+                margin: auto;
+                text-align: center;
+            }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .button {
+                background-color: deepskyblue;
+                border: 1px solid lightgray;
+                width: 75%;
+                text-align: center;
+                cursor: pointer;
+                padding: 10px 10px;
+                font-size: 16px;
+                border-radius: 12px;
+                display: inline-block;
+                color: white;
+            }
+            .button2 {
+                background-color: white;
+                color: dodgerblue;
+                border: 2px solid white;
+            }
+            .button2:hover {
+                background-color: white;
+                color:black;
+            }
+            input {
+                width: 75%;
+                padding: 10px 10px;
+                display: inline-block;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                color: gray;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            .column {
+                float: left;
+                width: 50%;
+                padding-left: 2px;
+                padding-left: 2px;
+            }
+            .row::after {
+                content: "";
+                display: table;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="myDiv" style="border: 1px solid lightgray;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png?20160616034027" alt="Instagram_logo" width="300px" height="100px">
+          <pre> 
+            <input type="text" id="myText" value="Phone number, Username or Email" size="50">
+
+            <input type="text" id="myText" value="Password" size="50">
+
+            <button class="button">Log In</button>
+          </pre> 
+            <pre style="color: gray;">       OR</pre>
+            <p> <button class="button button2"><i class="fa fa-facebook" style="font-size: 20px;color: dodgerblue;"></i>  Log In with Facebook</button></p>
+            <p style="color: midnightblue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forgot Password?</p>
+        </div>
+        <div id="myDiv" style="border: 1px solid white;"></div>
+        &nbsp;
+        <div id="myDiv" style="border: 1px solid lightgray;">
+            <p> Don't have an Account?
+               <span style="color: dodgerblue;">Sign Up </span> 
+            </p> 
+        </div>
+        <div id="myDiv" style="border: 1px solid white;">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Get the app.</p>
+        </div>
+        <div class="row">
+            <div class="column">
+               <img src="https://static.cdninstagram.com/rsrc.php/v4/yz/r/c5Rp7Ym-Klz.png" alt="Get it on Google Play" width="100px" height="50px">
+            </div>
+            <div class="column">
+              <img src="https://static.cdninstagram.com/rsrc.php/v4/yu/r/EHY6QnZYdNX.png" alt="Get it from Microsoft" width="100px" height="50px">
+            </div>
+        </div>
+        <div style="position:bottom; background-color: 5px solid white; width: 100%; height: 30px;" color: solid lightgray;>
+           <div>
+            Meta&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;
+            Blog&nbsp;&nbsp;&nbsp;Jobs&nbsp;&nbsp;&nbsp;
+            Help&nbsp;&nbsp;&nbsp;API&nbsp;&nbsp;&nbsp;
+            Privacy&nbsp;&nbsp;&nbsp;Terms&nbsp;&nbsp;&nbsp;
+            Locations&nbsp;&nbsp;&nbsp;Instagram Lite&nbsp;&nbsp;&nbsp;
+            Threads&nbsp;&nbsp;&nbsp;Contact Uploading & Non-Users &nbsp;&nbsp;&nbsp;
+            Meta Verified
+            </div> 
+        <div stye="background-color: solid white">
+            <div>
+              <pre>
+     English  2025 Instagram from Meta
+              </pre>
+            </div>
+    </body>
+</html>
